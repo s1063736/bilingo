@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>聖誕單字對對碰</title>
+
+    <link rel="stylesheet" type="text/css" href="scss/style.css">
+</head>
+
+<body>
+
+
+    <div class="main">
+    <div class="spark" id="particles-js"></div>
+        <div class="cards">
+            <div name="card1" id="card1" class="card">
+                <div></div>
+                <div>1</div>
+            </div>
+            <div name="card4" id="card2" class="card">
+                <div></div>
+                <div>4</div>
+            </div>
+            <div name="card2" id="card3" class="card">
+                <div></div>
+                <div>2</div>
+            </div>
+            <div name="card5" id="card4" class="card">
+                <div></div>
+                <div>5</div>
+            </div>
+            <div name="card4" id="card5" class="card">
+                <div></div>
+                <div>4</div>
+            </div>
+            <div name="card1" id="card6" class="card">
+                <div></div>
+                <div>1</div>
+            </div>
+            <div name="card6" id="card7" class="card">
+                <div></div>
+                <div>6</div>
+            </div>
+            <div name="card3" id="card8" class="card">
+                <div></div>
+                <div>3</div>
+            </div>
+            <div name="card2" id="card9" class="card">
+                <div></div>
+                <div>2</div>
+            </div>
+            <div name="card3" id="card10" class="card">
+                <div></div>
+                <div>3</div>
+            </div>
+            <div name="card5" id="card11" class="card">
+                <div></div>
+                <div>5</div>
+            </div>
+            <div name="card6" id="card12" class="card">
+                <div></div>
+                <div>6</div>
+            </div>
+        </div>
+        <div class="team1 team">
+            <p class="score">0</p>
+        </div>
+        <div class="team2 team">
+            <p class="score">0</p>
+        </div>
+        <div class="team3 team">
+            <p class="score">0</p>
+        </div>
+        <div class="team4 team">
+            <p class="score">0</p>
+        </div>
+
+        <div class="popbtn"></div>
+
+    </div>
+    <div class="poppage">
+        <div class="gamewrap">
+            <div class="game1 game">
+                <div class="cube1 cube">ist</div>
+                <div class="cube2 cube">tree</div>
+                <div class="cube3 cube">mas</div>
+                <div class="cube4 cube">Chr</div>
+            </div>
+            <div class="game2 game">
+                <div class="cube1 cube">aus</div>
+                <div class="cube2 cube">Cl</div>
+                <div class="cube3 cube">ta</div>
+                <div class="cube4 cube">San</div>
+            </div>
+            <div class="game3 game">
+                <div class="cube1 cube">er</div>
+                <div class="cube2 cube">in</div>
+                <div class="cube3 cube">Re</div>
+                <div class="cube4 cube">de</div>
+            </div>
+            <div class="game4 game">
+                <div class="cube1 cube">tle</div>
+                <div class="cube2 cube">toe</div>
+                <div class="cube3 cube">Mis</div>
+            </div>
+            <div class="game5 game">
+                <div class="cube1 cube">igh</div>
+                <div class="cube2 cube">e</div>
+                <div class="cube3 cube">Sl</div>
+            </div>
+            <div class="game6 game">
+                <div class="cube1 cube">ane</div>
+                <div class="cube2 cube">dy</div>
+                <div class="cube3 cube">Can</div>
+                <div class="cube4 cube">c</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mask"></div>
+    
+    <audio id="ding" src="img/maou_se_system48.mp3"></audio>
+    <audio id="bgm" src="img/Kitty Treats.mp3"  loop autoplay></audio>
+    <audio id="yes" src="img/yes.mp3" ></audio>
+    <audio id="no" src="img/no.mp3" ></audio>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        particlesJS.load('particles-js', 'js/particles.json', function () {
+            console.log('callback - particles.js config loaded');
+        });
+    </script>
+</body>
+
+</html>
