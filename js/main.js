@@ -6,7 +6,13 @@ let dingAudio = $('#ding')[0]
 let yesAudio = $('#yes')[0]
 let noAudio = $('#no')[0]
 let bgm = $('#bgm')[0]
-bgm.play()
+
+
+$('body').on('click', function () {
+    bgm.muted = false;
+    bgm.play()
+    console.log('bgmOK')
+})
 
 $('.team1').on('click', function () {
     dingAudio.play()
