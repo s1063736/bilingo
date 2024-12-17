@@ -5,6 +5,8 @@ let cardID, clicks = 0, team = 1, z_indexCount = 0, score
 let dingAudio = $('#ding')[0]
 let yesAudio = $('#yes')[0]
 let noAudio = $('#no')[0]
+let bgm = $('#bgm')[0]
+bgm.play()
 
 $('.team1').on('click', function () {
     dingAudio.play()
