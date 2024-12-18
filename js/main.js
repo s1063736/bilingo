@@ -162,7 +162,8 @@ function no(card1, card2) {
 
 let ansArray = []
 let nowQus = 1
-let oriTop = 366.890625
+// let oriTop = 366.890625
+let oriTop = $('.gamewrap').height() * 0.55
 let position4 = [0, 0, 0, 0]
 let position3 = [0, 0, 0]
 let cube4oriX = ['0', '290', '580', '870']
@@ -171,20 +172,20 @@ let correct = [
     'Chr', 'ist', 'mas', 'tree',
     'San', 'ta', 'Cl', 'aus',
     'Re', 'in', 'de', 'er',
-    'Mis', 'tle', 'toe','',
-    'Sl', 'e', 'igh','',
+    'Mis', 'tle', 'toe', '',
+    'Sl', 'e', 'igh', '',
     'Can', 'dy', 'c', 'ane'
 ]
 
 
 
-
 $('.cube').on('click', function () {
+    // console.log($(this).position().top + '/' + $('.gamewrap').height() * 0.55)
 
-    if ($(this).position().top == oriTop) {
+    if ($(this).position().top >= $('.gamewrap').height() * 0.5) {
 
         $(this).css({
-            top: '25%'
+            top: $('.gamewrap').height() * 0.25 + 'px'
         })
 
         if (nowQus == 4 || nowQus == 5) {
@@ -199,7 +200,7 @@ $('.cube').on('click', function () {
                     position3[i] = 1
                     ansArray[i] = $(this).html()
 
-                    
+
                     if ($(this).html() == correct[(nowQus - 1) * 4 + i]) {
                         yesAudio.play()
                         console.log($(this).html() + '/' + correct[(nowQus - 1) * 4 + i])
@@ -257,7 +258,7 @@ $('.cube').on('click', function () {
             }
 
             $(this).css({
-                top: '55%',
+                top: $('.gamewrap').height() * 0.55 + 'px',
                 left: cube3oriX[$(this).index()] + 'px'
             })
 
@@ -285,7 +286,7 @@ $('.cube').on('click', function () {
             }
 
             $(this).css({
-                top: '55%',
+                top: $('.gamewrap').height() * 0.55 + 'px',
                 left: cube4oriX[$(this).index()] + 'px'
             })
 
