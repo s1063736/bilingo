@@ -69,38 +69,74 @@ body .main .cards #card5, body .main .cards #card6, body .main .cards #card7, bo
 body .main .cards #card9, body .main .cards #card10, body .main .cards #card11, body .main .cards #card12 {
   top: 600px;
 }
+body .main .cards #card1 div:nth-child(1) {
+  background: url(../img/A.png);
+}
 body .main .cards #card1 div:nth-child(2) {
   background: url(../img/candy2.png);
+}
+body .main .cards #card6 div:nth-child(1) {
+  background: url(../img/F.png);
 }
 body .main .cards #card6 div:nth-child(2) {
   background: url(../img/candy1.png);
 }
+body .main .cards #card2 div:nth-child(1) {
+  background: url(../img/B.png);
+}
 body .main .cards #card2 div:nth-child(2) {
   background: url(../img/mistletoe1.png);
+}
+body .main .cards #card5 div:nth-child(1) {
+  background: url(../img/E.png);
 }
 body .main .cards #card5 div:nth-child(2) {
   background: url(../img/mistletoe2.png);
 }
+body .main .cards #card3 div:nth-child(1) {
+  background: url(../img/C.png);
+}
 body .main .cards #card3 div:nth-child(2) {
   background: url(../img/deer1.png);
+}
+body .main .cards #card9 div:nth-child(1) {
+  background: url(../img/I.png);
 }
 body .main .cards #card9 div:nth-child(2) {
   background: url(../img/deer2.png);
 }
+body .main .cards #card4 div:nth-child(1) {
+  background: url(../img/D.png);
+}
 body .main .cards #card4 div:nth-child(2) {
   background: url(../img/santa2.png);
+}
+body .main .cards #card11 div:nth-child(1) {
+  background: url(../img/K.png);
 }
 body .main .cards #card11 div:nth-child(2) {
   background: url(../img/santa1.png);
 }
+body .main .cards #card7 div:nth-child(1) {
+  background: url(../img/G.png);
+}
 body .main .cards #card7 div:nth-child(2) {
   background: url(../img/sleigh1.png);
+}
+body .main .cards #card12 div:nth-child(1) {
+  background: url(../img/L.png);
 }
 body .main .cards #card12 div:nth-child(2) {
   background: url(../img/sleigh2.png);
 }
+body .main .cards #card8 div:nth-child(1) {
+  background: url(../img/H.png);
+}
 body .main .cards #card8 div:nth-child(2) {
   background: url(../img/tree1.png);
+}
+body .main .cards #card10 div:nth-child(1) {
+  background: url(../img/J.png);
 }
 body .main .cards #card10 div:nth-child(2) {
   background: url(../img/tree2.png);
